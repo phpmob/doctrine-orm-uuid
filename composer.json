@@ -1,0 +1,36 @@
+{
+    "name": "phpmob/doctrine-orm-uuid",
+    "description": "Ramsey UUID for doctrine.",
+    "keywords": [
+        "Ramsey",
+        "UUID",
+        "doctrine"
+    ],
+    "homepage": "http://github.com/phpmob/doctrine-orm-uuid",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ishmael Doss",
+            "email": "nukboon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "ramsey/uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.0",
+        "doctrine/orm": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpMob\\Doctrine\\Uuid4\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpMob\\Doctrine\\Uuid4\\spec\\": "spec/"
+        }
+    }
+}
